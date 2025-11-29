@@ -1,7 +1,7 @@
 from transformers import DistilBertForSequenceClassification, DistilBertTokenizer
-from lightning.pytorch import LightningModule
+import torch.nn as nn
 
-class MyDistilBERT(LightningModule):
+class MyDistilBERT(nn.Module):
     def __init__(self):
         super().__init__()
         self.model = DistilBertForSequenceClassification.from_pretrained(
