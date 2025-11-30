@@ -2,7 +2,7 @@
 
 ## **Comparative study of NLP neural network architectures in Sentiment Analysis.**
 
-This project compares the performance of four neural network models — RNN, GRU, LSTM, and DistilBERT — on the task of binary sentiment classification. The goal is to evaluate their **accuracy, training time, and model complexity** on the same dataset and demonstrate the evolution of NLP architectures.
+This project compares the performance of four neural network models: RNN, GRU, LSTM, and DistilBERT, on the task of binary sentiment classification. The goal is to evaluate their **accuracy, training time, and model complexity** on the same dataset and demonstrate the evolution of NLP architectures.
 
 ---
 
