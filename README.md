@@ -23,8 +23,8 @@ We train each model on the **IMDb Movie Reviews dataset** (25,000 training and 2
 
 **IMDb Movie Reviews** (50,000 labeled reviews):
 
-- **Training:** 25,000 reviews (balanced positive/negative)  
-- **Testing:** 25,000 reviews (balanced positive/negative)  
+- 25,000 positive reviews (balanced positive/negative)  
+- 25,000 negative reviews (balanced positive/negative)  
 - Reviews are preprocessed via tokenization, padding, and vocabulary building for recurrent models, and via HuggingFace tokenizer for DistilBERT.
 
 Source: [IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
