@@ -2,7 +2,7 @@
 
 ## **Comparative study of NLP neural network architectures in Sentiment Analysis.**
 
-This project compares the performance of four neural network models: RNN, GRU, LSTM, and DistilBERT, on the task of binary sentiment classification. The goal is to evaluate their **accuracy, training time, and model complexity** on the same dataset and demonstrate the evolution of NLP architectures.
+This project compares the performance of four neural network models: RNN, LSTM, GRU, and DistilBERT, on the task of binary sentiment classification. The goal is to evaluate their **accuracy, training time, and model complexity** on the same dataset and demonstrate the evolution of NLP architectures.
 
 ---
 
@@ -11,8 +11,8 @@ This project compares the performance of four neural network models: RNN, GRU, L
 This is a **comparative case study** of NLP models:
 
 - **RNN:** Basic recurrent network for sequential text modeling.  
+- **LSTM:** Handles long-term dependencies with memory gates.
 - **GRU:** Gated recurrent unit for more efficient memory retention.  
-- **LSTM:** Handles long-term dependencies with memory gates.  
 - **DistilBERT:** Pretrained transformer, captures context globally using attention.
 
 We train each model on the **IMDb Movie Reviews dataset** (25,000 training and 25,000 test reviews) and compare their **performance metrics**.
